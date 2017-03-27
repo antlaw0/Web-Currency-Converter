@@ -24,7 +24,7 @@ var key = process.env.Currency_Converter_API_KEY;
   request( {uri :baseURL, qs: queryString} , function(error, api_response, body){
 	  if (!error && api_response.statusCode == 200){
 console.log("Exchange rates SAYS \n" + JSON.stringify(body));
-      		  
+            		  
 	  }//end of if got response back
   
   }); //end of request
