@@ -1,0 +1,13 @@
+{
+  "name":"currency",
+  "version":"0.0.1",
+  "dependencies":{
+    "express":"~4.14.1",
+    "express-handlebars":"~3.0.0"
+	"request": "^2.79.0",
+    
+  },
+  "description":"Simple currency converter",
+  "main":"app.js",
+  "author":"Anthony"
+}

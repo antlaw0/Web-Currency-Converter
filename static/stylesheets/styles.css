@@ -1,0 +1,12 @@
+h1{
+color: blue;
+}
+
+body {
+  background: white;
+  font-family: sans-serif;
+}
+
+input, button, select {
+  margin: 5px;
+}
