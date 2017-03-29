@@ -33,18 +33,9 @@ console.log("Exchange rates SAYS \n" + JSON.stringify(body));//this prints the c
  //final_result = JSON.stringify(body);
  }//end of if got response back
 
-  }); //end of request
-
-  //if currencies do not match, proceed with conversion
-  if (  from_currency != convertTo)
-{
-  //this doesn't work either
-  //final_result=final_result;
-}
-else// currency types match, no conversion necessary
-{
-final_result = dollars;
-}
+  
   res.render('results', { dollars : dollars, from_currency : from_currency, result: final_result, currency: convertTo})
 });
+}); //end of request
+
 module.exports = router;
